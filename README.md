@@ -35,10 +35,5 @@ there to the actual KNN method.
 
 
 ISSUES:
-1.  Having trouble with fitting the shape, flattening the (3xxx something, 100, 100, 3) to (3xxx, 30000) seems
-    appropriate, but it does not match up with the xTest parameters which I cannot figure out how to mend. 
-    Really, dealing with shape is the big issue in this code. Once I get through that it should be fine. 
-    
-2.  Do I need one hot encoding? I used it in my CNN obviously, but when printing out images, It completely screws
-    over the encoding (which makes sense) which obviously screws up the training. How else would I get my y list???
-
+1. Keeps on outputting the same image everytime, so it looks like something is going wrong in the processing part -- even 
+without the hotcoding. This is definitely a reason why as to why my accuracy is so low!
